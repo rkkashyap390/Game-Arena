@@ -1,0 +1,24 @@
+.snake-container {
+  text-align:center;
+  font-family: helvetica;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.snake-canvas {
+  margin-top: 1%;
+  border: 2px solid rgb(151, 149, 149);
+} 
+
+.snake-play{
+  display: block;
+  height: 40px;
+  width: 80px;
+  background-color: navy;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 8%;
+  text-align: center;
+  margin-left: 47%;
+}

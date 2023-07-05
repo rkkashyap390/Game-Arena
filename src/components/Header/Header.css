@@ -1,0 +1,10 @@
+.heading{
+    color:white;
+    background: #022638;
+    padding: 20px 20px 20px 20px;
+}
+
+.heading h1 {
+  color: #fff;
+  font-weight: 200;
+}
