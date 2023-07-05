@@ -15,7 +15,7 @@ body{
     position: fixed;
     left: 0;
     width: 20%;
-    /* min-width: 200px; */
+    top: 76px;
     height: 100%;
     background: #133748; 
 }

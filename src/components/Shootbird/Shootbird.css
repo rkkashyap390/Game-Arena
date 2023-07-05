@@ -1,11 +1,11 @@
 .shootbird-body{
   counter-reset:birds;
   -webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;  
   overflow:hidden;
 } 
 /*hide checkbox*/
@@ -53,6 +53,7 @@ input{position:fixed; left:-10px; top:-10px;}
   transition:0.3s  cubic-bezier(0,.43,1,0);
   animation: move 8s infinite alternate;
 }
+
 .input-circle1:not(:checked) ~ .pajaro1,
 .input-circle2:not(:checked) ~ .pajaro2,
 .input-circle3:not(:checked) ~ .pajaro3,
@@ -154,11 +155,11 @@ input{position:fixed; left:-10px; top:-10px;}
   font-size:25px;
   color:red;
 }
+
 @keyframes timer{
 0%{width:10px;}
 100%{width:300px; display:block;}
 }
-
 
 .gameover{
   position:fixed; z-index:100000; left:0; top:0; bottom:0; right:0; background-color:rgba(0,0,0,0.8);

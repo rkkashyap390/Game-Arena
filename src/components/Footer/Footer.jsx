@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer(){
     return(
-        <footer><p>Copyright GameArena</p></footer>
+        <footer><p>Happy Gaming!!</p></footer>
     )
 }
 
