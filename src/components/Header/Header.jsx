@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Header.css';
 
-function Header(){
+function Header(props){
     return(
-        <header className="heading"><h1>Game Arena</h1></header>
+        <header className="heading"><Link to = "/"><h1 onClick={props.onClick}>Game Arena</h1></Link></header>
     )
 }
 

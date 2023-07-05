@@ -12,24 +12,19 @@ import Mazegame from './components/Mazegame/Mazegame.jsx';
 import Shootbird from './components/Shootbird/Shootbird.jsx';
 
 function App() {
-  const [newpage, setnewpage] = useState(true);
-
-  function toggleStart(){
-    setnewpage(false);
-  }
 
   return (
     <div>
       <BrowserRouter>
         <Header />
-        <Sidebar onClick={toggleStart}/>
+        <Sidebar />
           <Routes>
+            <Route path='/' Component={Startgame} />
             <Route path='/snake' Component={Snake} />
             <Route path='/tic-tac-toe' Component={Tictactoe} />
             <Route path='/mazegame' Component={Mazegame} />
             <Route path='/shootbird' Component={Shootbird} />
           </Routes>
-        {newpage && <Startgame />}
         <Footer />
       </BrowserRouter>
     </div>
